@@ -5,7 +5,7 @@ All code review guides will be share in here.
 - Value should be changed at once (only inside method can be changed 2 times in the wrost case if try catch is used.)
 - Static Values should never be changed outside of the instance. (exception)
 - Try to keep all the Static items to readonly. (exception : if changed inside class. There has to be a good reason for it.)
-- All the magic `""` should be `constant` or `static readonly`
+- All the magic `""` should be `constant` or `static readonly` (if project can be deployed part by part then use `static readonly` as must)
 - Most of the created items should be readonly
 - All the parameters should take Interfaces and output interface except for primitive type or JsonModel or DbModel.
 - Every method should not have more than 3 arguments (worst), except for Utiliy or Helper static methods
