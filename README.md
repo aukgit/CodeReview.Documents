@@ -25,6 +25,7 @@ All code review guides will be share in here.
       - Js: http://bit.ly/30m34xE (Don't use http://bit.ly/30d3NBn)
       - PowerShell: PascalCaseWith Hyphen (Get-Hello-World as function name.)
       - Css: http://bit.ly/30c6kM7 (Don't use http://bit.ly/30gaDWv)
+      - Html: used class names should be in order.
 - Only use spaces as indent. Must not use mixed of tabs and spaces. (IDE Settings : https://drive.google.com/open?id=1IWH0rUsQrOFf3dMFM2u6rC7xhHPd9cIh)
 - Use string List for combinding string, don't use string builder. In place string modify create string builder for 100s of strings only. For 10-15 use simple contact.
 
