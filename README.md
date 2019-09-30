@@ -14,7 +14,7 @@ All code review guides will be share in here.
 - In a single method lines should NOT be more than 15 - 25 (worst)
 - `Class` should **NOT** have more than 100-300 lines of code except for `Helper (Static)`
 - Boolean datatype naming should starts with **`is`** (first choice) or `has`(if `is` doesn't go with naming then) or 'should' or 'does'
-- Constants/static readonly collection or enum should be placed PersonalVpn.DataModel.StaticType Folder
+- Constants/static readonly collection or enum should be placed ProjectName.DataModel.StaticType Folder
 - Each Item in the model folder/project should have `Model` as suffix.
 - Copyable contents should be placed into `YourProjectNamespace.Content` Project
 - Add a new line after the curly brace.
